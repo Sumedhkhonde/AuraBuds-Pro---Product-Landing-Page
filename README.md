@@ -203,8 +203,8 @@ git push origin feature-name
 **Sumedh Khonde**
 ### Connect with me
 
-- GitHub: https://github.com/your-username
-- LinkedIn: https://www.linkedin.com/in/your-linkedin-profile/
+- GitHub:(https://github.com/Sumedhkhonde/Sumedhkhonde)
+- LinkedIn: https://www.linkedin.com/in/sumedhkhonde
 
 ---
 
