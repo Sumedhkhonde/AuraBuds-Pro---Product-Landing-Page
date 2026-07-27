@@ -4,20 +4,12 @@
 
 A modern, responsive Product Landing Page built using **HTML, CSS, and JavaScript**. This project showcases a premium wireless earbuds product with a clean UI, interactive components, and responsive design.
 
-## 📸 Project Preview
-
-> Add a screenshot of your project here.
-
-Example:
-
-![AuraBuds Pro Screenshot](images/project-preview.png)
-
 ---
 
 ## 🚀 Live Demo
 
 🔗 **GitHub Repository:**  
-https://github.com/your-username/AuraBuds-Pro
+(https://github.com/Sumedhkhonde/AuraBuds-Pro---Product-Landing-Page)
 
 🌐 **Live Website (GitHub Pages):**  
  https://sumedhkhonde.github.io/AuraBuds-Pro---Product-Landing-Page/
@@ -209,9 +201,6 @@ git push origin feature-name
 # 👨‍💻 Author
 
 **Sumedh Khonde**
-
-Frontend Developer
-
 ### Connect with me
 
 - GitHub: https://github.com/your-username
@@ -224,11 +213,6 @@ Frontend Developer
 If you like this project, please consider giving it a ⭐ on GitHub.
 
 ---
-
-## 📜 License
-
-This project is open source and available under the **MIT License**.
-
----
+ 
 
 **Thank you for visiting this project! 😊**
