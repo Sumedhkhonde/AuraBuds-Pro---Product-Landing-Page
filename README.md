@@ -20,7 +20,7 @@ Example:
 https://github.com/your-username/AuraBuds-Pro
 
 🌐 **Live Website (GitHub Pages):**  
-https://your-username.github.io/AuraBuds-Pro/
+ https://sumedhkhonde.github.io/AuraBuds-Pro---Product-Landing-Page/
 
 ---
 
