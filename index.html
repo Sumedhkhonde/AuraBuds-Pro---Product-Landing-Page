@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraBuds Pro</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/specifications.css">
+    <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="css/review.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+ <!-- NAVBAR  -->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="images/logo.png" alt="AuraBuds Logo">
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+
+        <button class="buy-btn">
+            Buy Now
+        </button>
+
+        <div class="menu-icon" id="menuIcon">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </nav>
+
+</header>
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="hero">
+
+    <div class="hero-text">
+
+        <h1>
+            Experience Premium
+            <span>Wireless Sound</span>
+        </h1>
+
+        <p>
+            AuraBuds Pro delivers immersive audio,
+            active noise cancellation,
+            crystal clear calls,
+            and up to 40 hours of battery life.
+        </p>
+
+        <div class="buttons">
+
+            <button class="primary">
+                Buy Now
+            </button>
+
+            <button class="secondary">
+                Learn More
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="images/black.png" alt="AuraBuds">
+
+    </div>
+
+</section>
+ <!-- FEATURES -->
+
+<section class="features" id="features">
+
+    <div class="section-title">
+        <h2>Why Choose AuraBuds Pro?</h2>
+        <p>Premium technology built for music lovers.</p>
+    </div>
+
+    <div class="feature-container">
+
+        <div class="feature-card">
+            <i class="fa-solid fa-volume-high"></i>
+            <h3>Hi-Fi Sound</h3>
+            <p>
+              Experience crystal-clear audio with deep bass and balanced sound quality.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-battery-full"></i>
+            
+            <h3>40 Hours Battery</h3>
+            <p>
+             Enjoy uninterrupted music for up to 40 hours on a single charge.
+            </p>
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-microphone-lines"></i>
+            <h3>ENC Calling</h3>
+            <p>
+            AI Environmental Noise Cancellation provides clear voice during calls.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class ="fa-solid fa-droplet"></i>
+            <h3>IPX7 Waterproof</h3>
+            <p>
+            Sweatproof and waterproof design for workouts and outdoor adventures.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-brands fa-bluetooth-b"></i>
+            <h3>Bluetooth 5.4</h3>
+            <p>
+            Fast and stable connection with ultra-low latency.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-bolt"></i>
+            <h3>Fast Charging</h3>
+            <p>
+            Just 15 minutes of charging gives up to 5 hours of playback.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+ <!-- PRODUCT GALLERY -->
+
+<section class="gallery" id="gallery">
+
+    <div class="gallery-text">
+
+
+        <h2>Choose Your Style</h2>
+
+
+        <p>
+        Available in three premium colors.
+        Select your favorite and enjoy a premium audio experience.
+
+        </p>
+
+        <div class="color-buttons">
+
+
+            <button onclick="changeImage('images/black.png')">
+                Black
+            </button>
+
+            <button onclick="changeImage('images/white.png')">
+                White
+            </button>
+
+            <button onclick="changeImage('images/blue.png')">
+                Blue
+            </button>
+
+
+        </div>
+
+    </div>
+
+    <div class="gallery-image">
+
+        <img src="images/black.png"
+             id="productImage"
+             alt="AuraBuds Pro">
+
+    </div>
+
+</section>
+
+
+ <!-- PRODUCT SPECIFICATIONS -->
+
+<section class="specifications" id="specifications">
+
+    <div class="section-title">
+
+        <h2>Product Specifications</h2>
+
+        <p> 
+             Built with premium technology for an exceptional listening experience.
+        </p>
+
+    </div>
+
+    <div class="spec-container">
+
+        <div class="spec-card">
+
+            <i class="fa-solid fa-battery-full"></i>
+
+            <h3>Battery Life</h3>
+
+            <p>40 Hours Playback</p>
+        </div>
+
+        <div class="spec-card">
+            <i class="fa-brands fa-bluetooth-b"></i>
+            <h3>Bluetooth</h3>
+            <p>Bluetooth Version 5.4</p>
+
+        </div>
+
+        <div class="spec-card">
+
+            <i class="fa-solid fa-droplet"></i>
+            <h3>Water Resistant</h3>
+            <p>IPX7 Certified</p>
+
+        </div>
+
+        <div class="spec-card">
+
+            <i class="fa-solid fa-bolt"></i>
+            <h3>Fast Charging</h3>
+                <p>15 Minutes = 5 Hours Music</p>
+
+        </div>
+
+        <div class="spec-card">
+            <i class="fa-solid fa-microphone-lines"></i>
+            <h3>Microphone</h3>
+            <p>ENC Noise Cancellation</p>
+
+        </div>
+
+        <div class="spec-card">
+            <i class="fa-solid fa-music"></i>
+
+            <h3>Drivers</h3>
+        <p>13mm Dynamic Audio Drivers</p>
+        </div>
+
+    </div>
+
+</section>
+
+ <!-- CUSTOMER REVIEWS -->
+
+<section class="reviews" id="reviews">
+
+    <div class="section-title">
+        <h2>What Our Customers Say</h2>
+
+        <p>Thousands of music lovers trust AuraBuds Pro.</p>
+
+    </div>
+
+    <div class="review-container">
+
+        <div class="review-card">
+
+            <img src="images/Rahul.png" alt="Customer">
+
+            <h3>Rahul Sharma</h3>
+
+            <div class="stars">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <p>
+                Excellent sound quality with deep bass.
+                Battery backup is amazing. Worth every rupee!
+            </p>
+
+        </div>
+
+        <div class="review-card">
+
+            <img src="images/Rutuja.png" alt="Customer">
+
+            <h3>Priya Patel</h3>
+
+            <div class="stars">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <p>
+               Absolutely love these! I've had them for a month and they are a game-changer. The sound is crystal clear and the blue color is so vibrant. Super comfortable for long work calls (which I've been doing a lot from this very desk!). Battery life is incredible. 5 stars, would recommend to anyone!
+            </p>
+
+        </div>
+
+        <div class="review-card">
+
+            <img src="images/Amit.png" alt="Customer">
+
+            <h3>Amit Verma</h3>
+
+            <div class="stars">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <p>
+                <b>Incredible Sound Quality & Fit!</b> 
+                 "I've been using the AuraBuds for a little over two weeks now, and they completely exceeded my expectations. The sound profile is incredibly balanced—crisp highs and deep, punchy bass without being muddy. They fit perfectly and stay secure even during my morning runs. For this price point, the build quality and audio performance easily rival the major premium brands."
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+ <!-- PRICING -->
+
+<section class="pricing" id="pricing">
+
+    <div class="section-title">
+
+        <h2>Choose Your Plan</h2>
+        <p>Select the package that suits you best.</p>
+
+    </div>
+
+    <div class="pricing-container">
+ 
+
+        <div class="price-card">
+
+            <h3>Basic</h3>
+
+            <h1>₹1,999</h1>
+
+            <ul>
+                <li><i class="fas fa-check"></i> Bluetooth 5.4</li>
+                <li><i class="fas fa-check"></i> 20 Hours Battery</li>
+                <li><i class="fas fa-check"></i> ENC Calling</li>
+                <li><i class="fas fa-times"></i> Wireless Charging</li>
+            </ul>
+
+            <button>Buy Now</button>
+
+        </div>
+
+         
+
+        <div class="price-card active">
+
+            <span class="popular">Most Popular</span>
+
+            <h3>Premium</h3>
+
+            <h1>₹2,999</h1>
+
+            <ul>
+                <li><i class="fas fa-check"></i> Bluetooth 5.4</li>
+                <li><i class="fas fa-check"></i> 40 Hours Battery</li>
+                <li><i class="fas fa-check"></i> ANC + ENC</li>
+                <li><i class="fas fa-check"></i> Fast Charging</li>
+                <li><i class="fas fa-check"></i> Wireless Charging</li>
+            </ul>
+
+            <button>Buy Now</button>
+
+        </div>
+
+     
+
+        <div class="price-card">
+
+            <h3>Ultra</h3>
+
+            <h1>₹3,999</h1>
+
+            <ul>
+                <li><i class="fas fa-check"></i> Premium Audio</li>
+                <li><i class="fas fa-check"></i> 50 Hours Battery</li>
+                <li><i class="fas fa-check"></i> ANC + ENC</li>
+                <li><i class="fas fa-check"></i> Wireless Charging</li>
+                <li><i class="fas fa-check"></i> Premium Case</li>
+            </ul>
+
+            <button>Buy Now</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+ <!-- FAQ -->
+
+<section class="faq" id="faq">
+
+    <div class="section-title">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <p>Everything you need to know before buying.</p>
+
+    </div>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                How long does the battery last?
+
+                <span>+</span>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    AuraBuds Pro offers up to 40 hours of battery backup
+                    with the charging case.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                Is it waterproof?
+
+                <span>+</span>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+
+                    Yes. AuraBuds Pro is IPX7 water-resistant,
+                    making it suitable for workouts and light rain.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                Does it support fast charging?
+
+                <span>+</span>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Yes. A quick 15-minute charge provides
+                    approximately 5 hours of playback.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                What is the warranty period?
+
+                <span>+</span>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Every AuraBuds Pro comes with a
+                    1-year manufacturer warranty.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+ <!-- FOOTER -->
+
+<footer class="footer" id="contact">
+
+    <div class="footer-container">
+
+      
+
+        <div class="footer-box">
+
+            <img src="images/logo.png" alt="AuraBuds Logo" class="footer-logo">
+
+            <p>
+                AuraBuds Pro is designed for people who love premium sound,
+                comfort, and modern technology. Enjoy every beat with confidence.
+            </p>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+
+        </div>
+
+        <!-- Quick Links -->
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="#hero">Home</a></li>
+
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
+
+            </ul>
+
+        </div>
+
+        <!-- Support -->
+
+        <div class="footer-box">
+
+            <h3>Support</h3>
+
+            <ul>
+
+                <li><a href="#">Help Center</a></li>
+                
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Shipping Policy</a></li>
+                <li><a href="#">Return Policy</a></li>
+
+            </ul>
+
+        </div>
+
+        <!-- Contact -->
+
+        <div class="footer-box">
+
+            <h3>Contact Us</h3>
+
+            <p><i class="fas fa-location-dot"></i> Pune, Maharashtra, India</p>
+
+            <p><i class="fas fa-phone"></i> +91 987 654 5822</p>
+
+            <p><i class="fas fa-envelope"></i> support@aurabuds.com</p>
+
+            <form class="newsletter">
+
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 AuraBuds Pro. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+ <!-- BACK TO TOP BUTTON  -->
+
+<button id="topBtn">
+
+    <i class="fas fa-arrow-up"></i>
+
+</button>
+
+
+ <!-- javascripts -->
+
+<script src="js/script.js"></script>
+
+<script src="js/menu.js"></script>
+
+<script src="js/faq.js"></script>
+
+
+</body>
+</html>
